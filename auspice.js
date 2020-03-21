@@ -19,13 +19,14 @@ const parser = new argparse.ArgumentParser({
   `
 });
 
-const subparsers = parser.addSubparsers({title: 'Auspice commands', dest: "subcommand"});
+const subparsers = parser.addSubparsers({ title: 'Auspice commands', dest: "subcommand" });
 view.addParser(subparsers);
 build.addParser(subparsers);
 develop.addParser(subparsers);
 convert.addParser(subparsers);
 
 const args = parser.parseArgs();
+console.log("args", args);
 
 if (args.verbose) global.AUSPICE_VERBOSE = true;
 
