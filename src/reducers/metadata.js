@@ -20,14 +20,14 @@ const Metadata = (state = {
       return action.metadata;
     case types.ADD_COLOR_BYS:
       const colorings = Object.assign({}, state.colorings, action.newColorings);
-      return Object.assign({}, state, {colorings});
+      return Object.assign({}, state, { colorings });
     case types.SET_AVAILABLE:
       if (state.buildUrl) {
         return state; // do not use data from getAvailable to overwrite a buildUrl set from a dataset JSON
       }
       const buildUrl = getBuildUrlFromGetAvailableJson(action.data.datasets);
       if (buildUrl) {
-        return Object.assign({}, state, {buildUrl});
+        return Object.assign({}, state, { buildUrl });
       }
       return state;
     default:
@@ -44,7 +44,7 @@ function getBuildUrlFromGetAvailableJson(availableData) {
     .replace(/^\//, '')
     .replace(/\/$/, '')
     .split(":")[0];
-  for (let i=0; i<availableData.length; i++) {
+  for (let i = 0; i < availableData.length; i++) {
     if (availableData[i].request === displayedDatasetString) {
       return availableData[i].buildUrl; // may be `undefined`
     }

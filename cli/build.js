@@ -25,7 +25,6 @@ const addParser = (parser) => {
 };
 
 const run = (args) => {
-  console.log("hogefuga");
   /* webpack set up */
   const extensionPath = args.extend ? path.resolve(args.extend) : undefined;
   const customOutputPath = utils.customOutputPath(args.extend);

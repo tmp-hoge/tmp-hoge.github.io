@@ -26,7 +26,7 @@ import 'typeface-lato';
 const store = configureStore();
 
 /* set up non-redux state storage for the animation - use this conservitavely! */
-if (!window.NEXTSTRAIN) {window.NEXTSTRAIN = {};}
+if (!window.NEXTSTRAIN) { window.NEXTSTRAIN = {}; }
 
 /* google analytics */
 initialiseGoogleAnalyticsIfRequired();
@@ -44,4 +44,3 @@ const renderApp = () => {
 };
 
 renderApp();
-

@@ -48,19 +48,19 @@ const generateConfig = ({ extensionPath, devMode = false, customOutputPath, anal
     threshold: 10240,
     minRatio: 0.8
   });
-  const plugins = devMode ? [
-    new webpack.HotModuleReplacementPlugin(),
-    pluginProcessEnvData,
-    new webpack.NoEmitOnErrorsPlugin()
-  ] : [
-      pluginProcessEnvData,
-      new webpack.optimize.AggressiveMergingPlugin(), // merge chunks - https://github.com/webpack/docs/wiki/list-of-plugins#aggressivemergingplugin
-      pluginCompress
-    ];
+  // const plugins = devMode ? [
+  //   new webpack.HotModuleReplacementPlugin(),
+  //   pluginProcessEnvData,
+  //   new webpack.NoEmitOnErrorsPlugin()
+  // ] : [
+  //     pluginProcessEnvData,
+  //     new webpack.optimize.AggressiveMergingPlugin(), // merge chunks - https://github.com/webpack/docs/wiki/list-of-plugins#aggressivemergingplugin
+  //     pluginCompress
+  //   ];
 
   if (analyzeBundle) {
     const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin; // eslint-disable-line
-    plugins.push(new BundleAnalyzerPlugin());
+    // plugins.push(new BundleAnalyzerPlugin());
   }
 
   const entry = [
@@ -81,8 +81,6 @@ const generateConfig = ({ extensionPath, devMode = false, customOutputPath, anal
       path.resolve(customOutputPath, "dist") :
       path.resolve(__dirname, "dist");
   utils.verbose(`Webpack writing output to: ${outputPath}`);
-  console.log(outputPath);
-  console.log("hoge");
 
   const config = {
     mode: devMode ? 'development' : 'production',
@@ -100,10 +98,7 @@ const generateConfig = ({ extensionPath, devMode = false, customOutputPath, anal
     node: {
       fs: 'empty'
     },
-    plugins,
-    optimization: {
-      minimize: !devMode
-    },
+    // plugins,
     module: {
       rules: [
         {

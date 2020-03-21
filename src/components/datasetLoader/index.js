@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { loadJSONs } from "../../actions/loadData";
+// import { loadJSONs } from "../../actions/loadData";
 import { PAGE_CHANGE } from "../../actions/types";
 
 /* The DatsetLoader component simply triggers the (async) loadJSONs action
@@ -13,8 +13,9 @@ class DatasetLoader extends React.Component {
     super(props);
   }
   componentWillMount() {
-    this.props.dispatch(loadJSONs()); // choose via URL
-    this.props.dispatch({type: PAGE_CHANGE, displayComponent: "main"});
+    // console.log("load json!!");
+    // this.props.dispatch(loadJSONs()); // choose via URL
+    this.props.dispatch({ type: PAGE_CHANGE, displayComponent: "main" });
   }
   render() {
     return null;

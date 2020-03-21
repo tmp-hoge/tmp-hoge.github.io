@@ -21,9 +21,10 @@ import { hasExtension, getExtension } from "../util/extensions";
  * @param {Object} additionalQueries: additional information to be parsed as a
  *  query string such as `type` (`String`) or `narrative` (`Boolean`).
  */
-const getDatasetFromCharon = (prefix, {type, narrative=false}={}) => {
-  let path = `${getServerAddress()}/${narrative?"getNarrative":"getDataset"}`;
+const getDatasetFromCharon = (prefix, { type, narrative = false } = {}) => {
+  let path = `${getServerAddress()}/${narrative ? "getNarrative" : "getDataset"}`;
   path += `?prefix=${prefix}`;
+  console.log("path is", path);
   if (type) path += `&type=${type}`;
   const p = fetch(path)
     .then((res) => {
@@ -32,6 +33,8 @@ const getDatasetFromCharon = (prefix, {type, narrative=false}={}) => {
       }
       return res;
     });
+
+  console.log("p is ", p);
   return p;
 };
 
@@ -50,7 +53,7 @@ const getDatasetFromCharon = (prefix, {type, narrative=false}={}) => {
  * @param {Object} additionalQueries: additional information to be parsed as a
  *  query string such as `type` (`String`) or `narrative` (`Boolean`).
  */
-const getHardcodedData = (prefix, {type="mainJSON", narrative=false}={}) => {
+const getHardcodedData = (prefix, { type = "mainJSON", narrative = false } = {}) => {
   const datapaths = getExtension("hardcodedDataPaths");
 
   const p = fetch(datapaths[type])
@@ -64,7 +67,6 @@ const getHardcodedData = (prefix, {type="mainJSON", narrative=false}={}) => {
 };
 
 const getDataset = hasExtension("hardcodedDataPaths") ? getHardcodedData : getDatasetFromCharon;
-
 /**
  * given a url, which dataset fetches should be made?
  * If a second tree is defined - e.g.
@@ -140,6 +142,7 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
     if (!secondTreeUrl) {
       const mainDatasetResponse = await getDataset(mainDatasetUrl);
       datasetJson = await mainDatasetResponse.json();
+      console.log("json is ", datasetJson);
       pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
     } else {
       try {
@@ -203,22 +206,22 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
   /* do we have frequencies to display? */
   if (datasetJson.meta.panels && datasetJson.meta.panels.indexOf("frequencies") !== -1) {
     try {
-      const frequencyData = await getDataset(mainDatasetUrl, {type: "tip-frequencies"})
+      const frequencyData = await getDataset(mainDatasetUrl, { type: "tip-frequencies" })
         .then((res) => res.json());
       dispatch(loadFrequencies(frequencyData));
     } catch (err) {
       console.error("Failed to fetch frequencies", err.message)
-      dispatch(warningNotification({message: "Failed to fetch frequencies"}));
+      dispatch(warningNotification({ message: "Failed to fetch frequencies" }));
     }
   }
 
   /* Get available datasets -- this is needed for the sidebar dataset-change dropdowns etc */
   try {
     const availableDatasets = await fetchJSON(`${getServerAddress()}/getAvailable?prefix=${window.location.pathname}`)
-    dispatch({type: types.SET_AVAILABLE, data: availableDatasets});
+    dispatch({ type: types.SET_AVAILABLE, data: availableDatasets });
   } catch (err) {
     console.error("Failed to fetch available datasets", err.message)
-    dispatch(warningNotification({message: "Failed to fetch available datasets"}));
+    dispatch(warningNotification({ message: "Failed to fetch available datasets" }));
   }
 
 };
@@ -230,33 +233,37 @@ export const loadSecondTree = (secondTreeUrl, firstTreeUrl) => async (dispatch, 
       .then((res) => res.json());
   } catch (err) {
     console.error("Failed to fetch additional tree", err.message);
-    dispatch(warningNotification({message: "Failed to fetch second tree"}));
+    dispatch(warningNotification({ message: "Failed to fetch second tree" }));
     return;
   }
   const oldState = getState();
-  const newState = createTreeTooState({treeTooJSON: secondJson.tree, oldState, originalTreeUrl: firstTreeUrl, secondTreeUrl: secondTreeUrl, dispatch});
-  dispatch({type: types.TREE_TOO_DATA, ...newState});
+  const newState = createTreeTooState({ treeTooJSON: secondJson.tree, oldState, originalTreeUrl: firstTreeUrl, secondTreeUrl: secondTreeUrl, dispatch });
+  dispatch({ type: types.TREE_TOO_DATA, ...newState });
 };
 
 
-export const loadJSONs = ({url = window.location.pathname, search = window.location.search} = {}) => {
+export const loadJSONs = ({ url = window.location.pathname, search = window.location.search } = {}) => {
+  console.log("url is", url);
   return (dispatch, getState) => {
     const { tree } = getState();
     if (tree.loaded) {
-      dispatch({type: types.DATA_INVALID});
+      dispatch({ type: types.DATA_INVALID });
     }
     const query = queryString.parse(search);
 
     if (url.indexOf("narratives") === -1) {
+      console.log("query, ", query);
       fetchDataAndDispatch(dispatch, url, query);
     } else {
       /* we want to have an additional fetch to get the narrative JSON, which in turn
       tells us which data JSON to fetch... */
-      getDatasetFromCharon(url, {narrative: true})
+      getDatasetFromCharon(url, { narrative: true })
         .then((res) => res.json())
         .then((blocks) => {
           const firstURL = blocks[0].dataset;
           const firstQuery = queryString.parse(blocks[0].query);
+          console.log("firsturl: ", firstURL);
+          console.log("firstQuery: ", firstQuery);
           if (query.n) firstQuery.n = query.n;
           fetchDataAndDispatch(dispatch, firstURL, firstQuery, blocks);
         })
