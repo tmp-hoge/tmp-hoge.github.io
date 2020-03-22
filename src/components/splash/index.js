@@ -25,19 +25,10 @@ class Splash extends React.Component {
     this.state = { available: {}, errorMessage: undefined };
   }
   componentDidMount() {
-    // OK
-    // fetchJSON(`/charon/getAvailable?prefix=/`)
-    console.log("paht: ", location.pathname);
-    // fetchJSON(`${getServerAddress()}/getAvailable?prefix=${this.props.reduxPathname}`)
-    fetchJSON(`/data/ncov.json`)
-      .then((json) => {
-        console.log("fetch json: ", json);
-        this.setState({ available: json });
-      })
-      .catch((err) => {
-        this.setState({ errorMessage: "Error in getting available datasets" });
-        console.warn(err.message);
-      });
+    let testJson = '{"datasets":[{"request":"ncov","v2":true,"secondTreeOptions":[]}],"narratives":[]}';
+
+    console.log("fetch json: ", JSON.parse(testJson));
+    this.setState({ available: JSON.parse(testJson) });
   }
   render() {
     return (

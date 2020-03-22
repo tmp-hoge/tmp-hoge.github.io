@@ -244,6 +244,7 @@ export const loadSecondTree = (secondTreeUrl, firstTreeUrl) => async (dispatch, 
 
 export const loadJSONs = ({ url = window.location.pathname, search = window.location.search } = {}) => {
   console.log("url is", url);
+  console.log("fuga");
   return (dispatch, getState) => {
     const { tree } = getState();
     if (tree.loaded) {
