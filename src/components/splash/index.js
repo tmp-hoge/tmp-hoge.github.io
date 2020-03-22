@@ -25,9 +25,10 @@ class Splash extends React.Component {
     this.state = { available: {}, errorMessage: undefined };
   }
   componentDidMount() {
-    // fetchJSON(`${getServerAddress()}/getAvailable?prefix=${this.props.reduxPathname}`)
     // OK
     // fetchJSON(`/charon/getAvailable?prefix=/`)
+    console.log("paht: ", location.pathname);
+    // fetchJSON(`${getServerAddress()}/getAvailable?prefix=${this.props.reduxPathname}`)
     fetchJSON(`/data/ncov.json`)
       .then((json) => {
         console.log("fetch json: ", json);

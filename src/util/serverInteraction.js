@@ -4,8 +4,12 @@ export const fetchJSON = (path) => {
       if (res.status !== 200) {
         throw new Error(res.statusText);
       }
+      console.log("fetch 1", res);
       return res;
     })
-    .then((res) => res.json());
+    .then((res) => {
+      console.log("fetch 2", res);
+      return res.json()
+    });
   return p;
 };
