@@ -138,70 +138,80 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
   /* fetch the dataset JSON + the dataset JSON of a second tree if applicable */
   let datasetJson;
   let secondTreeDataset = false;
-  try {
-    if (!secondTreeUrl) {
-      const mainDatasetResponse = await getDataset(mainDatasetUrl);
-      datasetJson = await mainDatasetResponse.json();
-      console.log("json is ", datasetJson);
-      pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
-    } else {
-      try {
-        /* TO DO -- we used to fetch both trees at once, and the server would provide
-         * the following info accordingly. This required `recomputeReduxState` to be
-         * overly complicated. Since we have 2 fetches, could we simplify things
-         * and make `recomputeReduxState` for the first tree followed by another
-         * state recomputation? */
-        const mainDatasetResponse = await getDataset(mainDatasetUrl);
-        datasetJson = await mainDatasetResponse.json();
-        secondTreeDataset = await getDataset(secondTreeUrl)
-          .then((res) => res.json());
-      } catch (e) {
-        /* If the url is in the old syntax (e.g. `ha:na`) then `collectDatasetFetchUrls`
-         * will return incorrect dataset URLs (perhaps for both trees)
-         * In this case, we will try to parse the url again according to the old syntax
-         * and try to get the dataset for the main tree and second tree again.
-         * Also displays warning to the user to let them know the old syntax is deprecated. */
-        let oldSyntax;
-        [mainDatasetUrl, secondTreeUrl, oldSyntax] = collectDatasetFetchUrlsDeprecatedSyntax(url);
-        pathnameShouldBe = `${mainDatasetUrl}:${secondTreeUrl}`
-        const mainDatasetResponse = await getDataset(mainDatasetUrl);
-        datasetJson = await mainDatasetResponse.json();
-        secondTreeDataset = await getDataset(secondTreeUrl)
-          .then((res) => res.json());
-        dispatch(warningNotification({
-          message: `Specifing a second tree via "${oldSyntax}" is deprecated.`,
-          details: "The url has been modified to reflect the new syntax."
-        }));
+  console.log("mainDatasetUrl", mainDatasetUrl);
+  datasetJson = await fetch(`/data/ncov.json`)
+    .then((res) => {
+      if (res.status !== 200) {
+        throw new Error(res.statusText);
       }
-    }
-
-    dispatch({
-      type: types.CLEAN_START,
-      pathnameShouldBe,
-      ...createStateFromQueryOrJSONs({
-        json: datasetJson,
-        secondTreeDataset,
-        query,
-        narrativeBlocks,
-        mainTreeName: secondTreeUrl ? mainDatasetUrl : null,
-        secondTreeName: secondTreeUrl ? secondTreeUrl : null,
-        dispatch
-      })
+      return res;
+    }).then((res) => {
+      return res.json()
     });
+  // try {
+  //   if (!secondTreeUrl) {
+  //     const mainDatasetResponse = await getDataset(mainDatasetUrl);
+  //     datasetJson = await mainDatasetResponse.json();
+  //     console.log("json is ", datasetJson);
+  //     pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
+  //   } else {
+  //     try {
+  //       /* TO DO -- we used to fetch both trees at once, and the server would provide
+  //        * the following info accordingly. This required `recomputeReduxState` to be
+  //        * overly complicated. Since we have 2 fetches, could we simplify things
+  //        * and make `recomputeReduxState` for the first tree followed by another
+  //        * state recomputation? */
+  //       const mainDatasetResponse = await getDataset(mainDatasetUrl);
+  //       datasetJson = await mainDatasetResponse.json();
+  //       secondTreeDataset = await getDataset(secondTreeUrl)
+  //         .then((res) => res.json());
+  //     } catch (e) {
+  //       /* If the url is in the old syntax (e.g. `ha:na`) then `collectDatasetFetchUrls`
+  //        * will return incorrect dataset URLs (perhaps for both trees)
+  //        * In this case, we will try to parse the url again according to the old syntax
+  //        * and try to get the dataset for the main tree and second tree again.
+  //        * Also displays warning to the user to let them know the old syntax is deprecated. */
+  //       let oldSyntax;
+  //       [mainDatasetUrl, secondTreeUrl, oldSyntax] = collectDatasetFetchUrlsDeprecatedSyntax(url);
+  //       pathnameShouldBe = `${mainDatasetUrl}:${secondTreeUrl}`
+  //       const mainDatasetResponse = await getDataset(mainDatasetUrl);
+  //       datasetJson = await mainDatasetResponse.json();
+  //       secondTreeDataset = await getDataset(secondTreeUrl)
+  //         .then((res) => res.json());
+  //       dispatch(warningNotification({
+  //         message: `Specifing a second tree via "${oldSyntax}" is deprecated.`,
+  //         details: "The url has been modified to reflect the new syntax."
+  //       }));
+  //     }
+  //   }
 
-  } catch (err) {
-    if (err.message === "No Content") { // status code 204
-      /* TODO: add more helper functions for moving between pages in auspice */
-      return dispatch({
-        type: types.PAGE_CHANGE,
-        displayComponent: "splash",
-        pushState: true
-      });
-    }
-    console.error(err, err.message);
-    dispatch(goTo404(`Couldn't load JSONs for ${url}`));
-    return;
-  }
+  //   dispatch({
+  //     type: types.CLEAN_START,
+  //     pathnameShouldBe,
+  //     ...createStateFromQueryOrJSONs({
+  //       json: datasetJson,
+  //       secondTreeDataset,
+  //       query,
+  //       narrativeBlocks,
+  //       mainTreeName: secondTreeUrl ? mainDatasetUrl : null,
+  //       secondTreeName: secondTreeUrl ? secondTreeUrl : null,
+  //       dispatch
+  //     })
+  //   });
+
+  // } catch (err) {
+  //   if (err.message === "No Content") { // status code 204
+  //     /* TODO: add more helper functions for moving between pages in auspice */
+  //     return dispatch({
+  //       type: types.PAGE_CHANGE,
+  //       displayComponent: "splash",
+  //       pushState: true
+  //     });
+  //   }
+  //   console.error(err, err.message);
+  //   dispatch(goTo404(`Couldn't load JSONs for ${url}`));
+  //   return;
+  // }
 
   /* do we have frequencies to display? */
   if (datasetJson.meta.panels && datasetJson.meta.panels.indexOf("frequencies") !== -1) {
