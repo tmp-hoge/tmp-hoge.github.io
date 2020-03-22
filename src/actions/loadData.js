@@ -26,7 +26,7 @@ const getDatasetFromCharon = (prefix, { type, narrative = false } = {}) => {
   path += `?prefix=${prefix}`;
   console.log("path is", path);
   if (type) path += `&type=${type}`;
-  const p = fetch(path)
+  const p = fetch("/data/ncov.json")
     .then((res) => {
       if (res.status !== 200) {
         throw new Error(res.statusText);
@@ -143,9 +143,11 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
     console.log("1");
     if (!secondTreeUrl) {
       // const mainDatasetResponse = await getDataset(mainDatasetUrl);
-      // datasetJson = await mainDatasetResponse.json();
+      const mainDatasetResponse = await getDatasetFromCharon(mainDatasetUrl);
+
+      datasetJson = await mainDatasetResponse.json();
       console.log("1-1");
-      datasetJson = await fetch(`/data/ncov.json`).then((res) => res).then((res) => res.json());
+      // datasetJson = await fetch(`/data/ncov.json`).then((res) => res).then((res) => res.json());
       console.log("json is ", datasetJson);
       pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
     } else {
