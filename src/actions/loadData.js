@@ -142,8 +142,9 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
   try {
     console.log("1");
     if (!secondTreeUrl) {
-      const mainDatasetResponse = await getDataset(mainDatasetUrl);
+      // const mainDatasetResponse = await getDataset(mainDatasetUrl);
       // datasetJson = await mainDatasetResponse.json();
+      console.log("1-1");
       datasetJson = await fetch(`/data/ncov.json`).then((res) => res).then((res) => res.json());
       console.log("json is ", datasetJson);
       pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
