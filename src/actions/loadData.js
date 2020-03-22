@@ -146,8 +146,10 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
       }
       return res;
     }).then((res) => {
+      console.log("hoge");
       return res.json()
     });
+  console.log("datasetJson", datasetJson);
   // try {
   //   if (!secondTreeUrl) {
   //     const mainDatasetResponse = await getDataset(mainDatasetUrl);
