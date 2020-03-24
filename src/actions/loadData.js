@@ -8,6 +8,10 @@ import { fetchJSON } from "../util/serverInteraction";
 import { warningNotification, errorNotification } from "./notifications";
 import { hasExtension, getExtension } from "../util/extensions";
 
+// ローカルでデバッグするとき
+// const ENABLE_DEBUG = 1;
+// GitHubPagesにDeployするとき
+const ENABLE_DEBUG = 0;
 
 /**
  * Sends a GET request to the `/charon` web API endpoint requesting data.
@@ -26,7 +30,12 @@ const getDatasetFromCharon = (prefix, { type, narrative = false } = {}) => {
   path += `?prefix=${prefix}`;
   console.log("path is", path);
   if (type) path += `&type=${type}`;
-  const p = fetch("/data/ncov.json")
+
+  if (!ENABLE_DEBUG) {
+    path = "/data/ncov.json";
+  }
+
+  const p = fetch(path)
     .then((res) => {
       if (res.status !== 200) {
         throw new Error(res.statusText);
@@ -34,7 +43,6 @@ const getDatasetFromCharon = (prefix, { type, narrative = false } = {}) => {
       return res;
     });
 
-  console.log("p is ", p);
   return p;
 };
 
@@ -142,14 +150,15 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
   try {
     console.log("1");
     if (!secondTreeUrl) {
-      // const mainDatasetResponse = await getDataset(mainDatasetUrl);
-      const mainDatasetResponse = await getDatasetFromCharon(mainDatasetUrl);
-
-      datasetJson = await mainDatasetResponse.json();
-      console.log("1-1");
-      // datasetJson = await fetch(`/data/ncov.json`).then((res) => res).then((res) => res.json());
-      console.log("json is ", datasetJson);
-      pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
+      if (ENABLE_DEBUG) {
+        const mainDatasetResponse = await getDataset(mainDatasetUrl);
+        datasetJson = await mainDatasetResponse.json();
+        pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
+      } else {
+        const mainDatasetResponse = await getDatasetFromCharon(mainDatasetUrl);
+        datasetJson = await mainDatasetResponse.json();
+        pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
+      }
     } else {
       try {
         console.log("2");
