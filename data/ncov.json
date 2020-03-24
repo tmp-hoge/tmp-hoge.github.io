@@ -21,384 +21,16 @@
         "key": "location",
         "scale": [
           [
-            "Wuhan",
-            "#5E1D9D"
-          ],
-          [
-            "Tianmen",
-            "#581DA2"
-          ],
-          [
-            "Pingxiang",
-            "#4C23AE"
-          ],
-          [
-            "Zhongxian",
-            "#4A27B2"
-          ],
-          [
-            "Yongchuan",
-            "#482BB6"
-          ],
-          [
-            "Suzhou",
-            "#4432BD"
-          ],
-          [
-            "Chengdu",
-            "#4236C1"
-          ],
-          [
-            "Kunming",
-            "#403AC4"
-          ],
-          [
-            "Hangzhou",
-            "#403FC6"
-          ],
-          [
-            "Shenzhen",
-            "#3F48C9"
-          ],
-          [
-            "Zhuhai",
-            "#3F4DCB"
-          ],
-          [
-            "Huaian",
-            "#3F52CC"
-          ],
-          [
-            "Qingdao",
-            "#3F56CE"
-          ],
-          [
-            "Guangzhou",
-            "#3E5BD0"
-          ],
-          [
-            "Foshan",
-            "#3F5FD0"
-          ],
-          [
-            "Hong Kong",
-            "#4064CF"
-          ],
-          [
-            "Taipei",
-            "#4068CF"
-          ],
-          [
-            "Taoyuan",
-            "#416DCE"
-          ],
-          [
-            "Kaohsiung",
-            "#4271CE"
-          ],
-          [
             "Aichi",
-            "#437ACD"
+            "#EE7ACD"
           ],
           [
             "Tokyo",
-            "#FF0000"
+            "#FFE00E"
           ],
           [
             "Kyoto",
-            "#4681C9"
-          ],
-          [
-            "Gyeonggi",
-            "#4785C7"
-          ],
-          [
-            "Chungcheongnam",
-            "#4988C5"
-          ],
-          [
-            "Seoul",
-            "#4A8CC3"
-          ],
-          [
-            "Kathmandu",
-            "#4B8FC1"
-          ],
-          [
-            "Bangkok",
-            "#4E96BC"
-          ],
-          [
-            "Singapore",
-            "#5098B9"
-          ],
-          [
-            "Gold Coast",
-            "#529BB6"
-          ],
-          [
-            "Sydney",
-            "#549DB2"
-          ],
-          [
-            "Clayton",
-            "#56A0AF"
-          ],
-          [
-            "Auckland",
-            "#58A2AC"
-          ],
-          [
-            "Heinsberg District",
-            "#5AA4A8"
-          ],
-          [
-            "Munich",
-            "#5EA9A1"
-          ],
-          [
-            "Duesseldorf",
-            "#60AA9E"
-          ],
-          [
-            "Delft",
-            "#63AC9A"
-          ],
-          [
-            "Utrecht",
-            "#65AD96"
-          ],
-          [
-            "Zeewolde",
-            "#68AF93"
-          ],
-          [
-            "Loon op zand",
-            "#6AB18F"
-          ],
-          [
-            "Berlicum",
-            "#6DB28B"
-          ],
-          [
-            "Blaricum",
-            "#6FB488"
-          ],
-          [
-            "Hardinxveld Giessendam",
-            "#72B484"
-          ],
-          [
-            "Diemen",
-            "#78B67D"
-          ],
-          [
-            "Nootdorp",
-            "#7BB77A"
-          ],
-          [
-            "Naarden",
-            "#7EB876"
-          ],
-          [
-            "Eindhoven",
-            "#81B973"
-          ],
-          [
-            "Houten",
-            "#84BA70"
-          ],
-          [
-            "Haarlem",
-            "#87BB6D"
-          ],
-          [
-            "Nieuwendijk",
-            "#8ABB6A"
-          ],
-          [
-            "Andel",
-            "#8EBC67"
-          ],
-          [
-            "Rotterdam",
-            "#91BC64"
-          ],
-          [
-            "Oss",
-            "#94BD61"
-          ],
-          [
-            "Tilburg",
-            "#97BD5E"
-          ],
-          [
-            "Helmond",
-            "#9BBE5C"
-          ],
-          [
-            "Dalen",
-            "#A2BE57"
-          ],
-          [
-            "Nantes",
-            "#A5BE55"
-          ],
-          [
-            "Cr\u00e9py en Valois",
-            "#A8BD53"
-          ],
-          [
-            "Paris",
-            "#ACBD51"
-          ],
-          [
-            "Reims",
-            "#AFBD4F"
-          ],
-          [
-            "Pontoise",
-            "#B3BD4D"
-          ],
-          [
-            "Compi\u00e8gne",
-            "#B6BD4B"
-          ],
-          [
-            "Contamines",
-            "#B9BC4A"
-          ],
-          [
-            "Thise",
-            "#BCBB49"
-          ],
-          [
-            "Montreux-Chateau",
-            "#BFBB47"
-          ],
-          [
-            "Rouen",
-            "#C2BA46"
-          ],
-          [
-            "Leuven",
-            "#C5B945"
-          ],
-          [
-            "Starnberg",
-            "#C9B843"
-          ],
-          [
-            "Strasbourg",
-            "#CBB742"
-          ],
-          [
-            "Rome",
-            "#CEB641"
-          ],
-          [
-            "Milan",
-            "#D0B441"
-          ],
-          [
-            "Valencia",
-            "#D3B240"
-          ],
-          [
-            "Yorkshire",
-            "#D7AE3E"
-          ],
-          [
-            "Cardiff",
-            "#DAAD3D"
-          ],
-          [
-            "Rovaniemi",
-            "#DCAB3C"
-          ],
-          [
-            "J\u00f6nk\u00f6ping",
-            "#DEA83C"
-          ],
-          [
-            "Sao Paulo",
-            "#E0A23A"
-          ],
-          [
-            "Brasilia",
-            "#E19F39"
-          ],
-          [
-            "Rio de Janeiro",
-            "#E39C39"
-          ],
-          [
-            "Feira de Santana",
-            "#E49838"
-          ],
-          [
-            "Vila Velha",
-            "#E59537"
-          ],
-          [
-            "Pierce County",
-            "#E68434"
-          ],
-          [
-            "Solano County",
-            "#E67F33"
-          ],
-          [
-            "Sonoma County",
-            "#E67B32"
-          ],
-          [
-            "Orange County",
-            "#E67631"
-          ],
-          [
-            "Kirkland",
-            "#E67130"
-          ],
-          [
-            "Seattle",
-            "#E56C2F"
-          ],
-          [
-            "Los Angeles",
-            "#E4662E"
-          ],
-          [
-            "San Francisco",
-            "#E25B2C"
-          ],
-          [
-            "San Diego County",
-            "#E2552B"
-          ],
-          [
-            "Snohomish County",
-            "#E1502A"
-          ],
-          [
-            "King County",
-            "#E04A29"
-          ],
-          [
-            "Phoenix",
-            "#DF4428"
-          ],
-          [
-            "Chicago",
-            "#DE3F27"
-          ],
-          [
-            "Boston",
-            "#DC2E24"
-          ],
-          [
-            "Nassau County",
-            "#DB2823"
+            "#4681EE"
           ]
         ],
         "title": "Location",
@@ -408,468 +40,28 @@
         "key": "division",
         "scale": [
           [
-            "China",
-            "#5E1D9D"
-          ],
-          [
-            "Hubei",
-            "#591DA1"
-          ],
-          [
-            "Beijing",
-            "#531EA6"
-          ],
-          [
-            "Anhui",
-            "#4F1FAB"
-          ],
-          [
-            "Jiangxi",
-            "#4D23AE"
-          ],
-          [
-            "Chongqing",
-            "#4B26B2"
-          ],
-          [
-            "Sichuan",
-            "#492AB5"
-          ],
-          [
-            "Yunnan",
-            "#462EB9"
-          ],
-          [
-            "Jiangsu",
-            "#4431BC"
-          ],
-          [
-            "Shandong",
-            "#4235C0"
-          ],
-          [
-            "Zhejiang",
-            "#4039C3"
-          ],
-          [
-            "Fujian",
-            "#403DC5"
-          ],
-          [
-            "Guangdong",
-            "#4042C7"
-          ],
-          [
-            "Shanghai",
-            "#3F46C9"
-          ],
-          [
-            "Hong Kong",
-            "#3F4BCA"
-          ],
-          [
-            "Taiwan",
-            "#3F50CC"
-          ],
-          [
-            "Taoyuan",
-            "#3F54CD"
-          ],
-          [
             "Aichi",
-            "#3E59CF"
+            "#EE59CF"
           ],
           [
             "Tokyo",
-            "#FF0000"
+            "#FFEE00"
           ],
           [
             "Nara",
-            "#3F62D0"
+            "#3F62DD"
           ],
           [
             "Osaka",
-            "#4066CF"
+            "#4000CF"
           ],
           [
             "Kyoto",
-            "#416ACF"
+            "#41DDCF"
           ],
           [
             "Kanagawa",
             "#416ECE"
-          ],
-          [
-            "Gyeonggi",
-            "#4273CE"
-          ],
-          [
-            "Chungcheongnam",
-            "#4377CD"
-          ],
-          [
-            "Seoul",
-            "#447BCD"
-          ],
-          [
-            "South Korea",
-            "#457FCB"
-          ],
-          [
-            "Kathmandu",
-            "#4682C9"
-          ],
-          [
-            "Kerala",
-            "#4886C7"
-          ],
-          [
-            "Iran",
-            "#4989C5"
-          ],
-          [
-            "Tbilisi",
-            "#4A8CC2"
-          ],
-          [
-            "Thanh Hoa",
-            "#4C90C0"
-          ],
-          [
-            "Sihanoukville",
-            "#4D93BE"
-          ],
-          [
-            "Nonthaburi",
-            "#4F96BC"
-          ],
-          [
-            "Singapore",
-            "#5098B8"
-          ],
-          [
-            "Queensland",
-            "#529BB5"
-          ],
-          [
-            "New South Wales",
-            "#549DB2"
-          ],
-          [
-            "Victoria",
-            "#56A0AF"
-          ],
-          [
-            "Auckland",
-            "#58A2AC"
-          ],
-          [
-            "Europe",
-            "#5AA4A8"
-          ],
-          [
-            "Copenhagen",
-            "#5CA7A5"
-          ],
-          [
-            "Ile de France",
-            "#5EA8A2"
-          ],
-          [
-            "Pays de la Loire",
-            "#60AA9E"
-          ],
-          [
-            "Hauts de France",
-            "#63AC9B"
-          ],
-          [
-            "Bourgogne-France-Comt\u00e9",
-            "#65AD97"
-          ],
-          [
-            "Normandie",
-            "#67AF93"
-          ],
-          [
-            "Grand Est",
-            "#6AB090"
-          ],
-          [
-            "Auvergne Rhone Alpes",
-            "#6CB28C"
-          ],
-          [
-            "Flanders",
-            "#6EB389"
-          ],
-          [
-            "Leuven",
-            "#71B485"
-          ],
-          [
-            "Sint-Niklaas",
-            "#74B582"
-          ],
-          [
-            "Kraainem",
-            "#77B67F"
-          ],
-          [
-            "Huldenberg",
-            "#7AB77B"
-          ],
-          [
-            "Brussels",
-            "#7DB878"
-          ],
-          [
-            "Bavaria",
-            "#80B974"
-          ],
-          [
-            "Baden-Wuerttemberg",
-            "#82BA71"
-          ],
-          [
-            "North Rhine Westphalia",
-            "#85BB6E"
-          ],
-          [
-            "Netherlands",
-            "#89BB6B"
-          ],
-          [
-            "Utrecht",
-            "#8CBB69"
-          ],
-          [
-            "Overijssel",
-            "#8FBC66"
-          ],
-          [
-            "Gelderland",
-            "#92BC63"
-          ],
-          [
-            "Limburg",
-            "#96BD60"
-          ],
-          [
-            "Drenthe",
-            "#99BD5D"
-          ],
-          [
-            "North Brabant",
-            "#9CBE5B"
-          ],
-          [
-            "Flevoland",
-            "#9FBE59"
-          ],
-          [
-            "South Holland",
-            "#A3BE57"
-          ],
-          [
-            "North Holland",
-            "#A6BE55"
-          ],
-          [
-            "Luxembourg",
-            "#A9BD53"
-          ],
-          [
-            "Basel",
-            "#ADBD51"
-          ],
-          [
-            "Bern",
-            "#B0BD4F"
-          ],
-          [
-            "Zurich",
-            "#B3BD4D"
-          ],
-          [
-            "Aargau",
-            "#B6BD4B"
-          ],
-          [
-            "Geneva",
-            "#B9BC4A"
-          ],
-          [
-            "Vaud",
-            "#BCBB49"
-          ],
-          [
-            "Ticino",
-            "#BFBB47"
-          ],
-          [
-            "Graub\u00fcnden",
-            "#C2BA46"
-          ],
-          [
-            "Schwyz",
-            "#C5B945"
-          ],
-          [
-            "Comunitat Valenciana",
-            "#C8B843"
-          ],
-          [
-            "Italy",
-            "#CBB742"
-          ],
-          [
-            "Lazio",
-            "#CEB641"
-          ],
-          [
-            "Lombardy",
-            "#D0B441"
-          ],
-          [
-            "Usti nad Labem",
-            "#D2B240"
-          ],
-          [
-            "Northern Ireland",
-            "#D5B13F"
-          ],
-          [
-            "England",
-            "#D7AF3E"
-          ],
-          [
-            "Wales",
-            "#D9AD3D"
-          ],
-          [
-            "Dublin",
-            "#DCAB3C"
-          ],
-          [
-            "Limerick",
-            "#DDA93C"
-          ],
-          [
-            "Scotland",
-            "#DEA63B"
-          ],
-          [
-            "Sm\u00e5land",
-            "#E0A33A"
-          ],
-          [
-            "Helsinki",
-            "#E1A03A"
-          ],
-          [
-            "Finland",
-            "#E29D39"
-          ],
-          [
-            "Portugal",
-            "#E49A38"
-          ],
-          [
-            "Lagos",
-            "#E59738"
-          ],
-          [
-            "Kinshasa",
-            "#E69337"
-          ],
-          [
-            "Santiago",
-            "#E68F36"
-          ],
-          [
-            "Talca",
-            "#E68B35"
-          ],
-          [
-            "Sao Paulo",
-            "#E68634"
-          ],
-          [
-            "Espirito Santo",
-            "#E68234"
-          ],
-          [
-            "Bahia",
-            "#E67D33"
-          ],
-          [
-            "Rio de Janeiro",
-            "#E67932"
-          ],
-          [
-            "Distrito Federal",
-            "#E67531"
-          ],
-          [
-            "Panama City",
-            "#E66F30"
-          ],
-          [
-            "Mexico City",
-            "#E56A2F"
-          ],
-          [
-            "Texas",
-            "#E4642E"
-          ],
-          [
-            "Utah",
-            "#E35F2D"
-          ],
-          [
-            "Arizona",
-            "#E25A2C"
-          ],
-          [
-            "California",
-            "#E1542B"
-          ],
-          [
-            "Illinois",
-            "#E14F2A"
-          ],
-          [
-            "Wisconsin",
-            "#E04929"
-          ],
-          [
-            "Minnesota",
-            "#DF4428"
-          ],
-          [
-            "Massachusetts",
-            "#DE3E27"
-          ],
-          [
-            "New York",
-            "#DE3926"
-          ],
-          [
-            "Washington",
-            "#DD3325"
-          ],
-          [
-            "British Columbia",
-            "#DC2E24"
-          ],
-          [
-            "Ontario",
-            "#DB2823"
-          ],
-          [
-            "Grand Princess",
-            "#AAAAAA"
           ]
         ],
         "title": "Admin Division",
@@ -879,152 +71,8 @@
         "key": "country",
         "scale": [
           [
-            "China",
-            "#5E1D9D"
-          ],
-          [
-            "Hong Kong",
-            "#4E20AB"
-          ],
-          [
-            "Taiwan",
-            "#482BB6"
-          ],
-          [
             "Japan",
             "#4137C2"
-          ],
-          [
-            "South Korea",
-            "#3F45C8"
-          ],
-          [
-            "Nepal",
-            "#3F53CD"
-          ],
-          [
-            "India",
-            "#3F62D0"
-          ],
-          [
-            "Vietnam",
-            "#426FCE"
-          ],
-          [
-            "Cambodia",
-            "#447DCC"
-          ],
-          [
-            "Thailand",
-            "#4887C6"
-          ],
-          [
-            "Singapore",
-            "#4D92BF"
-          ],
-          [
-            "Australia",
-            "#529AB6"
-          ],
-          [
-            "New Zealand",
-            "#58A2AC"
-          ],
-          [
-            "Georgia",
-            "#5EA9A1"
-          ],
-          [
-            "France",
-            "#66AE96"
-          ],
-          [
-            "Denmark",
-            "#6DB38A"
-          ],
-          [
-            "Netherlands",
-            "#76B680"
-          ],
-          [
-            "Belgium",
-            "#7FB975"
-          ],
-          [
-            "Luxembourg",
-            "#89BB6B"
-          ],
-          [
-            "Germany",
-            "#93BC63"
-          ],
-          [
-            "Switzerland",
-            "#9DBE5A"
-          ],
-          [
-            "Italy",
-            "#A8BE54"
-          ],
-          [
-            "Spain",
-            "#B2BD4D"
-          ],
-          [
-            "Czech Republic",
-            "#BCBB49"
-          ],
-          [
-            "United Kingdom",
-            "#C5B945"
-          ],
-          [
-            "Ireland",
-            "#CEB541"
-          ],
-          [
-            "Finland",
-            "#D5B03F"
-          ],
-          [
-            "Sweden",
-            "#DDAA3C"
-          ],
-          [
-            "Portugal",
-            "#E1A13A"
-          ],
-          [
-            "Nigeria",
-            "#E59738"
-          ],
-          [
-            "Congo",
-            "#E68B35"
-          ],
-          [
-            "Chile",
-            "#E67D33"
-          ],
-          [
-            "Brazil",
-            "#E56E30"
-          ],
-          [
-            "Panama",
-            "#E35C2C"
-          ],
-          [
-            "Mexico",
-            "#E04B29"
-          ],
-          [
-            "USA",
-            "#DE3926"
-          ],
-          [
-            "Canada",
-            "#DB2823"
           ]
         ],
         "title": "Country",
@@ -1034,32 +82,8 @@
         "key": "region",
         "scale": [
           [
-            "Oceania",
-            "#3F63CF"
-          ],
-          [
             "Asia",
             "#529BB5"
-          ],
-          [
-            "Africa",
-            "#76B67F"
-          ],
-          [
-            "Europe",
-            "#A8BD54"
-          ],
-          [
-            "North America",
-            "#D6B03F"
-          ],
-          [
-            "Central America",
-            "#E67D33"
-          ],
-          [
-            "South America",
-            "#DB2823"
           ]
         ],
         "title": "Region",
@@ -1163,7 +187,7 @@
         "type": "categorical"
       }
     ],
-    "description": "[\u8bf7\u70b9\u51fb\u8fd9\u91cc\u67e5\u770b\u4e2d\u6587\u7248\u672c](/ncov/zh)\n\n[Latest Nextstrain COVID-19 situation report in English](https://nextstrain.org/narratives/ncov/sit-rep/2020-03-13) and [in other languages](https://nextstrain.org/narratives/ncov/sit-rep/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual updates to data and analysis.\n\nThis phylogeny shows evolutionary relationships of hCoV-19 (or SARS-CoV-2) viruses from the ongoing novel coronavirus COVID-19 pandemic. This phylogeny shows an initial emergence in Wuhan, China, in Nov-Dec 2019 followed by sustained human-to-human transmission leading to sampled infections. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred transmission patterns are only a hypothesis.\n\nSite numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov).\n\nPhylogenetic context of nCoV in SARS-related betacoronaviruses can be seen [here](https://nextstrain.org/groups/blab/sars-like-cov).\n\nWe gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequence and metadata made available through [GISAID](https://gisaid.org) on which this research is based. A full listing of all originating and submitting laboratories is available below. An attribution table is available by clicking on \"Download Data\" at the bottom of the page and then clicking on \"Strain Metadata\" in the resulting dialog box.\n",
+    "description": "この系統図は、進行中の新規コロナウイルスCOVID-19パンデミックからのhCoV-19（またはSARS-CoV-2）ウイルスの進化関係を示しています。サンプリングされたウイルス間の遺伝的関係は非常に明確ですが、感染日の推定や地理的広がりの再構築は不確実です。特定の推定される感染パターンは仮説にすぎないことに注意してください。",
     "display_defaults": {
       "branch_label": "none",
       "color_by": "division",
@@ -1296,1003 +320,51 @@
             "latitude": 35.067543,
             "longitude": 137.334061
           },
-          "Andel": {
-            "latitude": 51.7851,
-            "longitude": 5.0549
-          },
-          "Auckland": {
-            "latitude": -36.8314,
-            "longitude": 174.7606
-          },
-          "Bangkok": {
-            "latitude": 13.803139,
-            "longitude": 100.491612
-          },
-          "Berlicum": {
-            "latitude": 51.6789,
-            "longitude": 5.4012
-          },
-          "Blaricum": {
-            "latitude": 52.2727,
-            "longitude": 5.2481
-          },
-          "Boston": {
-            "latitude": 42.35475,
-            "longitude": -71.061299
-          },
-          "Brasilia": {
-            "latitude": -15.814189,
-            "longitude": -47.875543
-          },
-          "Cardiff": {
-            "latitude": 51.476291,
-            "longitude": -3.178964
-          },
-          "Chengdu": {
-            "latitude": 30.640989,
-            "longitude": 104.067518
-          },
-          "Chicago": {
-            "latitude": 41.858966,
-            "longitude": -87.637242
-          },
-          "Chungcheongnam": {
-            "latitude": 36.685948,
-            "longitude": 126.799198
-          },
-          "Clayton": {
-            "latitude": -37.9152,
-            "longitude": 145.127165
-          },
-          "Compi\u00e8gne": {
-            "latitude": 49.408175,
-            "longitude": 2.842839
-          },
-          "Contamines": {
-            "latitude": 45.820585,
-            "longitude": 6.72773
-          },
-          "Cr\u00e9py en Valois": {
-            "latitude": 49.234399,
-            "longitude": 2.888491
-          },
-          "Dalen": {
-            "latitude": 52.6994,
-            "longitude": 6.7568
-          },
-          "Delft": {
-            "latitude": 52.0116,
-            "longitude": 4.3571
-          },
-          "Diemen": {
-            "latitude": 52.339,
-            "longitude": 4.9592
-          },
-          "Duesseldorf": {
-            "latitude": 51.22166,
-            "longitude": 6.75289
-          },
-          "Eindhoven": {
-            "latitude": 51.4416,
-            "longitude": 5.4697
-          },
-          "Feira de Santana": {
-            "latitude": -12.2598,
-            "longitude": -38.9675
-          },
-          "Foshan": {
-            "latitude": 23.018766,
-            "longitude": 113.121428
-          },
-          "Gold Coast": {
-            "latitude": -28.019726,
-            "longitude": 153.39816
-          },
-          "Guangzhou": {
-            "latitude": 23.123972,
-            "longitude": 113.292889
-          },
-          "Gyeonggi": {
-            "latitude": 37.397957,
-            "longitude": 127.380864
-          },
-          "Haarlem": {
-            "latitude": 52.3874,
-            "longitude": 4.6462
-          },
-          "Hangzhou": {
-            "latitude": 30.272732,
-            "longitude": 120.154501
-          },
-          "Hardinxveld Giessendam": {
-            "latitude": 51.830196,
-            "longitude": 4.840971
-          },
-          "Heinsberg District": {
-            "latitude": 51.0499,
-            "longitude": 6.1163
-          },
-          "Helmond": {
-            "latitude": 51.4793,
-            "longitude": 5.657
-          },
-          "Hong Kong": {
-            "latitude": 22.3964,
-            "longitude": 114.1095
-          },
-          "Houten": {
-            "latitude": 52.0278,
-            "longitude": 5.163
-          },
-          "Huaian": {
-            "latitude": 33.574586,
-            "longitude": 119.132155
-          },
-          "J\u00f6nk\u00f6ping": {
-            "latitude": 57.777979,
-            "longitude": 14.160453
-          },
-          "Kaohsiung": {
-            "latitude": 22.622632,
-            "longitude": 120.312435
-          },
-          "Kathmandu": {
-            "latitude": 27.712907,
-            "longitude": 85.323557
-          },
-          "King County": {
-            "latitude": 47.449221,
-            "longitude": -121.864246
-          },
-          "Kirkland": {
-            "latitude": 47.679486,
-            "longitude": -122.206354
-          },
-          "Kunming": {
-            "latitude": 25.013024,
-            "longitude": 102.866742
-          },
           "Kyoto": {
             "latitude": 35.007542,
             "longitude": 135.768455
           },
-          "Leuven": {
-            "latitude": 50.880674,
-            "longitude": 4.700109
-          },
-          "Loon op zand": {
-            "latitude": 51.625527,
-            "longitude": 5.070262
-          },
-          "Los Angeles": {
-            "latitude": 34.029267,
-            "longitude": -118.242865
-          },
-          "Milan": {
-            "latitude": 45.474,
-            "longitude": 9.177
-          },
-          "Montreux-Chateau": {
-            "latitude": 47.607677,
-            "longitude": 6.994181
-          },
-          "Munich": {
-            "latitude": 48.155742,
-            "longitude": 11.54938
-          },
-          "Naarden": {
-            "latitude": 52.2953,
-            "longitude": 5.1604
-          },
-          "Nantes": {
-            "latitude": 47.203649,
-            "longitude": -1.552453
-          },
-          "Nassau County": {
-            "latitude": 40.7333,
-            "longitude": -73.5801
-          },
-          "Nieuwendijk": {
-            "latitude": 51.7774,
-            "longitude": 4.8743
-          },
-          "Nootdorp": {
-            "latitude": 52.044,
-            "longitude": 4.3909
-          },
-          "Orange County": {
-            "latitude": 33.689584,
-            "longitude": -117.788718
-          },
-          "Oss": {
-            "latitude": 51.762396,
-            "longitude": 5.530563
-          },
-          "Paris": {
-            "latitude": 48.853884,
-            "longitude": 2.341738
-          },
-          "Phoenix": {
-            "latitude": 33.433362,
-            "longitude": -112.068786
-          },
-          "Pierce County": {
-            "latitude": 47.006605,
-            "longitude": -122.107847
-          },
-          "Pingxiang": {
-            "latitude": 27.632413,
-            "longitude": 113.892981
-          },
-          "Pontoise": {
-            "latitude": 49.049228,
-            "longitude": 2.098595
-          },
-          "Qingdao": {
-            "latitude": 36.171557,
-            "longitude": 120.398496
-          },
-          "Reims": {
-            "latitude": 49.253754,
-            "longitude": 4.03586
-          },
-          "Rio de Janeiro": {
-            "latitude": -22.89445,
-            "longitude": -43.2099
-          },
-          "Rome": {
-            "latitude": 41.881118,
-            "longitude": 12.492817
-          },
-          "Rotterdam": {
-            "latitude": 51.9244,
-            "longitude": 4.4777
-          },
-          "Rouen": {
-            "latitude": 49.4432,
-            "longitude": 1.1
-          },
-          "Rovaniemi": {
-            "latitude": 66.501553,
-            "longitude": 25.728919
-          },
-          "San Diego County": {
-            "latitude": 33.001859,
-            "longitude": -116.824178
-          },
-          "San Francisco": {
-            "latitude": 37.757679,
-            "longitude": -122.440006
-          },
-          "Sao Paulo": {
-            "latitude": -23.551096,
-            "longitude": -46.634874
-          },
-          "Seattle": {
-            "latitude": 47.748301,
-            "longitude": -121.85015
-          },
-          "Seoul": {
-            "latitude": 37.548278,
-            "longitude": 126.990916
-          },
-          "Shenzhen": {
-            "latitude": 22.639468,
-            "longitude": 114.044046
-          },
-          "Singapore": {
-            "latitude": 1.344189,
-            "longitude": 103.867546
-          },
-          "Snohomish County": {
-            "latitude": 48.006,
-            "longitude": -122.0731
-          },
-          "Solano County": {
-            "latitude": 38.295909,
-            "longitude": -121.928845
-          },
-          "Sonoma County": {
-            "latitude": 38.506902,
-            "longitude": -122.863769
-          },
-          "Starnberg": {
-            "latitude": 48.0,
-            "longitude": 11.339
-          },
-          "Strasbourg": {
-            "latitude": 48.5734,
-            "longitude": 7.7521
-          },
-          "Suzhou": {
-            "latitude": 31.289911,
-            "longitude": 120.538521
-          },
-          "Sydney": {
-            "latitude": -33.870747,
-            "longitude": 151.208359
-          },
-          "Taipei": {
-            "latitude": 25.043279,
-            "longitude": 121.565717
-          },
-          "Taoyuan": {
-            "latitude": 24.951706,
-            "longitude": 121.219785
-          },
-          "Thise": {
-            "latitude": 47.284553,
-            "longitude": 6.079822
-          },
-          "Tianmen": {
-            "latitude": 30.651,
-            "longitude": 113.1556
-          },
-          "Tilburg": {
-            "latitude": 51.571419,
-            "longitude": 5.052759
-          },
           "Tokyo": {
             "latitude": 35.683441,
             "longitude": 139.766131
-          },
-          "Utrecht": {
-            "latitude": 52.0907,
-            "longitude": 5.1214
-          },
-          "Valencia": {
-            "latitude": 39.337,
-            "longitude": -0.354
-          },
-          "Vila Velha": {
-            "latitude": -20.3472,
-            "longitude": -40.2823
-          },
-          "Wuhan": {
-            "latitude": 30.554807,
-            "longitude": 114.271501
-          },
-          "Yongchuan": {
-            "latitude": 29.374774,
-            "longitude": 105.925391
-          },
-          "Yorkshire": {
-            "latitude": 53.3833,
-            "longitude": -1.4599
-          },
-          "Zeewolde": {
-            "latitude": 52.3311,
-            "longitude": 5.5405
-          },
-          "Zhongxian": {
-            "latitude": 30.323947,
-            "longitude": 108.012855
-          },
-          "Zhuhai": {
-            "latitude": 22.271346,
-            "longitude": 113.562879
           }
         },
         "key": "location"
       },
       {
         "demes": {
-          "Aargau": {
-            "latitude": 47.420629,
-            "longitude": 8.172097
-          },
           "Aichi": {
             "latitude": 35.067543,
             "longitude": 137.334061
-          },
-          "Anhui": {
-            "latitude": 31.754331,
-            "longitude": 117.211441
-          },
-          "Arizona": {
-            "latitude": 34.220707,
-            "longitude": -111.657462
-          },
-          "Auckland": {
-            "latitude": -36.8314,
-            "longitude": 174.7606
-          },
-          "Auvergne Rhone Alpes": {
-            "latitude": 45.126511,
-            "longitude": 5.480724
-          },
-          "Baden-Wuerttemberg": {
-            "latitude": 48.712618,
-            "longitude": 9.13403
-          },
-          "Bahia": {
-            "latitude": -12.5797,
-            "longitude": -41.7007
-          },
-          "Basel": {
-            "latitude": 47.559198,
-            "longitude": 7.59064
-          },
-          "Bavaria": {
-            "latitude": 48.1382614,
-            "longitude": 11.5845093
-          },
-          "Beijing": {
-            "latitude": 40.07132,
-            "longitude": 116.406908
-          },
-          "Bern": {
-            "latitude": 46.855135,
-            "longitude": 7.570549
-          },
-          "Bourgogne-France-Comt\u00e9": {
-            "latitude": 47.2805,
-            "longitude": 4.9994
-          },
-          "British Columbia": {
-            "latitude": 54.010982,
-            "longitude": -124.745183
-          },
-          "Brussels": {
-            "latitude": 50.8503,
-            "longitude": 4.3517
-          },
-          "California": {
-            "latitude": 36.357039,
-            "longitude": -119.690182
-          },
-          "Chongqing": {
-            "latitude": 29.858721,
-            "longitude": 107.375623
-          },
-          "Chungcheongnam": {
-            "latitude": 36.685948,
-            "longitude": 126.799198
-          },
-          "Comunitat Valenciana": {
-            "latitude": 39.337,
-            "longitude": -0.354
-          },
-          "Copenhagen": {
-            "latitude": 55.6761,
-            "longitude": 12.5683
-          },
-          "Distrito Federal": {
-            "latitude": -15.7998,
-            "longitude": -47.8645
-          },
-          "Drenthe": {
-            "latitude": 52.846963,
-            "longitude": 6.608915
-          },
-          "Dublin": {
-            "latitude": 53.3431,
-            "longitude": -6.262191
-          },
-          "England": {
-            "latitude": 52.405994,
-            "longitude": -1.671707
-          },
-          "Espirito Santo": {
-            "latitude": -19.1834,
-            "longitude": -40.3089
-          },
-          "Finland": {
-            "latitude": 61.751734,
-            "longitude": 26.186437
-          },
-          "Flanders": {
-            "latitude": 51.056536,
-            "longitude": 4.254283
-          },
-          "Flevoland": {
-            "latitude": 52.48851,
-            "longitude": 5.615829
-          },
-          "Fujian": {
-            "latitude": 26.284852,
-            "longitude": 118.122938
-          },
-          "Gelderland": {
-            "latitude": 52.042091,
-            "longitude": 6.01486
-          },
-          "Geneva": {
-            "latitude": 46.216038,
-            "longitude": 6.136984
-          },
-          "Grand Est": {
-            "latitude": 48.6998,
-            "longitude": 6.1878
-          },
-          "Grand Princess": {
-            "latitude": 37.579905,
-            "longitude": -123.67313
-          },
-          "Graub\u00fcnden": {
-            "latitude": 46.709551,
-            "longitude": 9.606903
-          },
-          "Guangdong": {
-            "latitude": 23.615762,
-            "longitude": 114.483257
-          },
-          "Gyeonggi": {
-            "latitude": 37.397957,
-            "longitude": 127.380864
-          },
-          "Hauts de France": {
-            "latitude": 49.934396,
-            "longitude": 2.783002
-          },
-          "Helsinki": {
-            "latitude": 60.1698848,
-            "longitude": 24.9384991
-          },
-          "Hong Kong": {
-            "latitude": 22.3964,
-            "longitude": 114.1095
-          },
-          "Hubei": {
-            "latitude": 31.095477,
-            "longitude": 112.676644
-          },
-          "Huldenberg": {
-            "latitude": 50.7886,
-            "longitude": 4.5881
-          },
-          "Ile de France": {
-            "latitude": 48.724751,
-            "longitude": 2.491522
-          },
-          "Illinois": {
-            "latitude": 40.088552,
-            "longitude": -89.301876
-          },
-          "Jiangsu": {
-            "latitude": 33.077761,
-            "longitude": 119.825116
-          },
-          "Jiangxi": {
-            "latitude": 27.458973,
-            "longitude": 115.535326
           },
           "Kanagawa": {
             "latitude": 35.403801,
             "longitude": 139.294288
           },
-          "Kathmandu": {
-            "latitude": 27.712907,
-            "longitude": 85.323557
-          },
-          "Kerala": {
-            "latitude": 10.359825,
-            "longitude": 76.39955
-          },
-          "Kinshasa": {
-            "latitude": -4.2978,
-            "longitude": 15.2962
-          },
-          "Kraainem": {
-            "latitude": 50.8611,
-            "longitude": 4.4593
-          },
           "Kyoto": {
             "latitude": 35.007542,
             "longitude": 135.768455
-          },
-          "Lagos": {
-            "latitude": 6.54252,
-            "longitude": 3.286661
-          },
-          "Lazio": {
-            "latitude": 41.994328,
-            "longitude": 12.622686
-          },
-          "Leuven": {
-            "latitude": 50.8798,
-            "longitude": 4.7005
-          },
-          "Limburg": {
-            "latitude": 51.230477,
-            "longitude": 5.956744
-          },
-          "Limerick": {
-            "latitude": 52.662235,
-            "longitude": -8.627565
-          },
-          "Lombardy": {
-            "latitude": 45.4791,
-            "longitude": 9.8452
-          },
-          "Luxembourg": {
-            "latitude": 49.755428,
-            "longitude": 6.119486
-          },
-          "Massachusetts": {
-            "latitude": 42.340741,
-            "longitude": -71.998513
-          },
-          "Mexico City": {
-            "latitude": 19.404497,
-            "longitude": -99.143041
-          },
-          "Minnesota": {
-            "latitude": 46.126042,
-            "longitude": -94.619581
           },
           "Nara": {
             "latitude": 34.371026,
             "longitude": 135.887389
           },
-          "Netherlands": {
-            "latitude": 52.1326,
-            "longitude": 5.2913
-          },
-          "New South Wales": {
-            "latitude": -32.68843,
-            "longitude": 146.228414
-          },
-          "New York": {
-            "latitude": 40.7642499,
-            "longitude": -73.9545249
-          },
-          "Nonthaburi": {
-            "latitude": 13.852511,
-            "longitude": 100.522791
-          },
-          "Normandie": {
-            "latitude": 49.05581,
-            "longitude": 0.060987
-          },
-          "North Brabant": {
-            "latitude": 51.4827,
-            "longitude": 5.2322
-          },
-          "North Holland": {
-            "latitude": 52.5206,
-            "longitude": 4.7885
-          },
-          "North Rhine Westphalia": {
-            "latitude": 51.44,
-            "longitude": 7.705
-          },
-          "Northern Ireland": {
-            "latitude": 54.60219,
-            "longitude": -6.687146
-          },
-          "Ontario": {
-            "latitude": 44.429,
-            "longitude": -79.377
-          },
           "Osaka": {
             "latitude": 34.64872,
             "longitude": 135.525013
           },
-          "Overijssel": {
-            "latitude": 52.436273,
-            "longitude": 6.463628
-          },
-          "Panama City": {
-            "latitude": 8.98333,
-            "longitude": -79.5166
-          },
-          "Pays de la Loire": {
-            "latitude": 47.640237,
-            "longitude": -0.647258
-          },
-          "Portugal": {
-            "latitude": 39.54046,
-            "longitude": -8.174701
-          },
-          "Queensland": {
-            "latitude": -23.094025,
-            "longitude": 144.192275
-          },
-          "Rio de Janeiro": {
-            "latitude": -22.89445,
-            "longitude": -43.2099
-          },
-          "Santiago": {
-            "latitude": -33.383304,
-            "longitude": -70.530623
-          },
-          "Sao Paulo": {
-            "latitude": -23.59806,
-            "longitude": -46.660537
-          },
-          "Schwyz": {
-            "latitude": 47.055398,
-            "longitude": 8.73645
-          },
-          "Scotland": {
-            "latitude": 56.415858,
-            "longitude": -4.090641
-          },
-          "Seoul": {
-            "latitude": 37.548278,
-            "longitude": 126.990916
-          },
-          "Shandong": {
-            "latitude": 36.298013,
-            "longitude": 118.193884
-          },
-          "Shanghai": {
-            "latitude": 31.171447,
-            "longitude": 121.429896
-          },
-          "Sichuan": {
-            "latitude": 30.709229,
-            "longitude": 102.693949
-          },
-          "Sihanoukville": {
-            "latitude": 10.616351,
-            "longitude": 103.512278
-          },
-          "Singapore": {
-            "latitude": 1.344189,
-            "longitude": 103.867546
-          },
-          "Sint-Niklaas": {
-            "latitude": 51.1559,
-            "longitude": 4.1544
-          },
-          "Sm\u00e5land": {
-            "latitude": 57.528294,
-            "longitude": 14.463824
-          },
-          "South Holland": {
-            "latitude": 52.006053,
-            "longitude": 4.485728
-          },
-          "South Korea": {
-            "latitude": 36.609249,
-            "longitude": 127.917932
-          },
-          "Taiwan": {
-            "latitude": 23.8169,
-            "longitude": 121.031365
-          },
-          "Talca": {
-            "latitude": -35.462909,
-            "longitude": -71.37096
-          },
-          "Taoyuan": {
-            "latitude": 24.9936,
-            "longitude": 121.301
-          },
-          "Tbilisi": {
-            "latitude": 41.733699,
-            "longitude": 44.818487
-          },
-          "Texas": {
-            "latitude": 31.146868,
-            "longitude": -99.188758
-          },
-          "Thanh Hoa": {
-            "latitude": 20.026365,
-            "longitude": 105.439044
-          },
-          "Ticino": {
-            "latitude": 46.345334,
-            "longitude": 8.774813
-          },
           "Tokyo": {
             "latitude": 35.683441,
             "longitude": 139.766131
-          },
-          "Usti nad Labem": {
-            "latitude": 50.656527,
-            "longitude": 14.053702
-          },
-          "Utah": {
-            "latitude": 39.4225192,
-            "longitude": -111.7143583
-          },
-          "Utrecht": {
-            "latitude": 52.08532,
-            "longitude": 5.184968
-          },
-          "Vaud": {
-            "latitude": 46.619469,
-            "longitude": 6.472479
-          },
-          "Victoria": {
-            "latitude": -37.121673,
-            "longitude": 144.106178
-          },
-          "Wales": {
-            "latitude": 52.306085,
-            "longitude": -3.621944
-          },
-          "Washington": {
-            "latitude": 47.183945,
-            "longitude": -119.950361
-          },
-          "Wisconsin": {
-            "latitude": 44.535145,
-            "longitude": -89.527762
-          },
-          "Yunnan": {
-            "latitude": 24.556297,
-            "longitude": 101.36621
-          },
-          "Zhejiang": {
-            "latitude": 29.22571,
-            "longitude": 120.299125
-          },
-          "Zurich": {
-            "latitude": 47.441242,
-            "longitude": 8.641154
-          },
-          "China": {
-            "latitude": 33.394333,
-            "longitude": 104.689839
-          },
-          "Italy": {
-            "latitude": 43.382775,
-            "longitude": 12.183629
-          },
-          "Europe": {
-            "latitude": 48.684312,
-            "longitude": 13.651501
-          },
-          "Iran": {
-            "latitude": 34.5732,
-            "longitude": 51.876
           }
         },
         "key": "division"
       },
       {
         "demes": {
-          "Australia": {
-            "latitude": -24.7761085,
-            "longitude": 134.755
-          },
-          "Belgium": {
-            "latitude": 50.6407351,
-            "longitude": 4.66696
-          },
-          "Brazil": {
-            "latitude": -10.3333332,
-            "longitude": -53.1999999
-          },
-          "Cambodia": {
-            "latitude": 13.0,
-            "longitude": 105.0
-          },
-          "Canada": {
-            "latitude": 61.0666922,
-            "longitude": -107.991707
-          },
-          "Chile": {
-            "latitude": -31.7613364,
-            "longitude": -71.3187696
-          },
-          "China": {
-            "latitude": 35.000074,
-            "longitude": 104.999927
-          },
-          "Congo": {
-            "latitude": -0.7264326,
-            "longitude": 15.6419155
-          },
-          "Czech Republic": {
-            "latitude": 49.8175,
-            "longitude": 15.473
-          },
-          "Denmark": {
-            "latitude": 56.2639,
-            "longitude": 9.5018
-          },
-          "Finland": {
-            "latitude": 63.2467777,
-            "longitude": 25.9209164
-          },
-          "France": {
-            "latitude": 46.603354,
-            "longitude": 1.8883335
-          },
-          "Georgia": {
-            "latitude": 41.989378,
-            "longitude": 43.597463
-          },
-          "Germany": {
-            "latitude": 51.0834196,
-            "longitude": 10.4234469
-          },
-          "Hong Kong": {
-            "latitude": 22.3964,
-            "longitude": 114.1095
-          },
-          "India": {
-            "latitude": 22.3511148,
-            "longitude": 78.6677428
-          },
-          "Ireland": {
-            "latitude": 52.865196,
-            "longitude": -7.9794598
-          },
-          "Italy": {
-            "latitude": 42.6384261,
-            "longitude": 12.674297
-          },
           "Japan": {
             "latitude": 35.68536,
             "longitude": 139.75309
-          },
-          "Luxembourg": {
-            "latitude": 49.755428,
-            "longitude": 6.119486
-          },
-          "Mexico": {
-            "latitude": 19.4325301,
-            "longitude": -99.1332101
-          },
-          "Nepal": {
-            "latitude": 28.0,
-            "longitude": 84.0
-          },
-          "Netherlands": {
-            "latitude": 52.3702,
-            "longitude": 4.8952
-          },
-          "New Zealand": {
-            "latitude": -41.500083,
-            "longitude": 172.8344077
-          },
-          "Nigeria": {
-            "latitude": 10.0,
-            "longitude": 8.0
-          },
-          "Panama": {
-            "latitude": 8.98333,
-            "longitude": -79.5166
-          },
-          "Portugal": {
-            "latitude": 39.6945,
-            "longitude": -8.13057
-          },
-          "Singapore": {
-            "latitude": 1.2904527,
-            "longitude": 103.852038
-          },
-          "South Korea": {
-            "latitude": 35.3985008,
-            "longitude": 127.937111
-          },
-          "Spain": {
-            "latitude": 40.0028028,
-            "longitude": -4.0031039
-          },
-          "Sweden": {
-            "latitude": 59.6749712,
-            "longitude": 14.5208584
-          },
-          "Switzerland": {
-            "latitude": 47.00016,
-            "longitude": 8.01427
-          },
-          "Taiwan": {
-            "latitude": 23.6978,
-            "longitude": 120.9605
-          },
-          "Thailand": {
-            "latitude": 14.8971921,
-            "longitude": 100.83273
-          },
-          "USA": {
-            "latitude": 39.7837304,
-            "longitude": -100.4458824
-          },
-          "United Kingdom": {
-            "latitude": 54.542713,
-            "longitude": -2.384858
-          },
-          "Vietnam": {
-            "latitude": 16.16667,
-            "longitude": 107.83333
           }
         },
         "key": "country"
@@ -2359,15 +431,15 @@
                 "value": "B"
               },
               "country": {
-                "value": "China"
+                "value": "Japan"
               },
               "div": 3.999191748798191,
               "division": {
                 "confidence": {
-                  "Shanghai": 1.0
+                  "Kyoto": 1.0
                 },
                 "entropy": -1.000088900581841e-12,
-                "value": "Shanghai"
+                "value": "Kyoto"
               },
               "gisaid_epi_isl": {
                 "value": "EPI_ISL_416378"
@@ -2427,15 +499,15 @@
                 "value": "B"
               },
               "country": {
-                "value": "China"
+                "value": "Japan"
               },
               "div": 4.999387174620354,
               "division": {
                 "confidence": {
-                  "Shanghai": 1.0
+                  "Kyoto": 1.0
                 },
                 "entropy": -1.000088900581841e-12,
-                "value": "Shanghai"
+                "value": "Kyoto"
               },
               "gisaid_epi_isl": {
                 "value": "EPI_ISL_416339"
@@ -2504,15 +576,15 @@
                 "value": "B"
               },
               "country": {
-                "value": "China"
+                "value": "Japan"
               },
               "div": 8.004635346506456,
               "division": {
                 "confidence": {
-                  "Hubei": 1.0
+                  "Tokyo": 1.0
                 },
                 "entropy": -1.000088900581841e-12,
-                "value": "Hubei"
+                "value": "Tokyo"
               },
               "gisaid_epi_isl": {
                 "value": "EPI_ISL_412983"
@@ -2573,10 +645,10 @@
                   },
                   "division": {
                     "confidence": {
-                      "China": 1.0
+                      "Kyoto": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "China"
+                    "value": "Kyoto"
                   }
                 },
                 "children": [
@@ -2612,14 +684,14 @@
                         "value": "B"
                       },
                       "country": {
-                        "value": "India"
+                        "value": "Japan"
                       },
                       "div": 5.997352794515797,
                       "division": {
-                        "value": "Kerala"
+                        "value": "Tokyo"
                       },
                       "division_exposure": {
-                        "value": "China"
+                        "value": "Japan"
                       },
                       "gisaid_epi_isl": {
                         "value": "EPI_ISL_413523"
@@ -2665,15 +737,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "China"
+                    "value": "Japan"
                   },
                   "div": 2.9938459560726534,
                   "division": {
                     "confidence": {
-                      "Guangdong": 1.0
+                      "Kyoto": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Guangdong"
+                    "value": "Kyoto"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_413854"
@@ -2719,13 +791,10 @@
               },
               "division": {
                 "confidence": {
-                  "China": 0.14286467196320035,
-                  "Guangdong": 0.09936456695824228,
-                  "Hubei": 0.6199318173117446,
-                  "Shanghai": 0.06459137834601537
+                  "Aichi": 1.0
                 },
                 "entropy": 1.4633061186515515,
-                "value": "Hubei"
+                "value": "Aichi"
               }
             }
           },
@@ -2764,15 +833,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "Chile"
+                    "value": "Japan"
                   },
                   "div": 5.9880062168503985,
                   "division": {
                     "confidence": {
-                      "Talca": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Talca"
+                    "value": "Tokyo"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_414577"
@@ -2816,15 +885,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "Chile"
+                    "value": "Japan"
                   },
                   "div": 5.9880062168503985,
                   "division": {
                     "confidence": {
-                      "Talca": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Talca"
+                    "value": "Tokyo"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_414578"
@@ -2870,11 +939,10 @@
               },
               "division": {
                 "confidence": {
-                  "Hubei": 0.0015825511668250169,
-                  "Talca": 0.9971736265725031
+                  "Aichi": 1.0
                 },
                 "entropy": 0.02604462476316231,
-                "value": "Talca"
+                "value": "Aichi"
               }
             }
           },
@@ -2911,15 +979,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "China"
+                    "value": "Japan"
                   },
                   "div": 5.9879048555245,
                   "division": {
                     "confidence": {
-                      "Shanghai": 1.0
+                      "Kyoto": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Shanghai"
+                    "value": "Kyoto"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_416335"
@@ -2963,15 +1031,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "China"
+                    "value": "Japan"
                   },
                   "div": 5.9879048555245,
                   "division": {
                     "confidence": {
-                      "Shanghai": 1.0
+                      "Kyoto": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Shanghai"
+                    "value": "Kyoto"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_416350"
@@ -3017,13 +1085,10 @@
               },
               "division": {
                 "confidence": {
-                  "Guangdong": 0.07568853668950729,
-                  "Hubei": 0.8107035765416788,
-                  "Shanghai": 0.08950234814605151,
-                  "Zhejiang": 0.005132780640532299
+                  "Tokyo": 1.0
                 },
                 "entropy": 0.7607104324575226,
-                "value": "Hubei"
+                "value": "Tokyo"
               }
             }
           },
@@ -3056,10 +1121,10 @@
                   },
                   "division": {
                     "confidence": {
-                      "Hubei": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Hubei"
+                    "value": "Tokyo"
                   }
                 },
                 "children": [
@@ -3077,14 +1142,14 @@
                         "value": "B"
                       },
                       "country": {
-                        "value": "United Kingdom"
+                        "value": "Japan"
                       },
                       "div": 3.9918095267666263,
                       "division": {
-                        "value": "England"
+                        "value": "Kanagawa"
                       },
                       "division_exposure": {
-                        "value": "Hubei"
+                        "value": "Tokyo"
                       },
                       "gisaid_epi_isl": {
                         "value": "EPI_ISL_407071"
@@ -3129,10 +1194,10 @@
                   },
                   "division": {
                     "confidence": {
-                      "Hubei": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Hubei"
+                    "value": "Tokyo"
                   }
                 },
                 "children": [
@@ -3160,14 +1225,14 @@
                         "value": "B"
                       },
                       "country": {
-                        "value": "United Kingdom"
+                        "value": "Japan"
                       },
                       "div": 4.992956283723303,
                       "division": {
-                        "value": "England"
+                        "value": "Kanagawa"
                       },
                       "division_exposure": {
-                        "value": "Hubei"
+                        "value": "Tokyo"
                       },
                       "gisaid_epi_isl": {
                         "value": "EPI_ISL_407073"
@@ -3215,13 +1280,10 @@
               },
               "division": {
                 "confidence": {
-                  "Guangdong": 0.07659902833214968,
-                  "Hubei": 0.8171216180883342,
-                  "Shanghai": 0.08146055726792585,
-                  "Zhejiang": 0.005744809642971695
+                  "Tokyo": 1.0
                 },
                 "entropy": 0.7482372990864699,
-                "value": "Hubei"
+                "value": "Tokyo"
               }
             }
           },
@@ -3249,15 +1311,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "China"
+                    "value": "Japan"
                   },
                   "div": 3.9918128892531173,
                   "division": {
                     "confidence": {
-                      "Guangdong": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Guangdong"
+                    "value": "Tokyo"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_413860"
@@ -3319,15 +1381,15 @@
                     "value": "B"
                   },
                   "country": {
-                    "value": "South Korea"
+                    "value": "Japan"
                   },
                   "div": 6.995280423443894,
                   "division": {
                     "confidence": {
-                      "Seoul": 1.0
+                      "Tokyo": 1.0
                     },
                     "entropy": -1.000088900581841e-12,
-                    "value": "Seoul"
+                    "value": "Tokyo"
                   },
                   "gisaid_epi_isl": {
                     "value": "EPI_ISL_412869"
@@ -3336,7 +1398,7 @@
                     "value": "Human"
                   },
                   "location": {
-                    "value": "Seoul"
+                    "value": "Tokyo"
                   },
                   "num_date": {
                     "confidence": [
@@ -3376,13 +1438,13 @@
               },
               "division": {
                 "confidence": {
-                  "Guangdong": 0.09651673850335153,
-                  "Hubei": 0.6286442482483295,
-                  "Seoul": 0.1337281426289527,
-                  "Shanghai": 0.06329308935774268
+                  "Tokyo": 0.09651673850335153,
+                  "Aichi": 0.6286442482483295,
+                  "Kanagawa": 0.1337281426289527,
+                  "Kyoto": 0.06329308935774268
                 },
                 "entropy": 1.4688438168167008,
-                "value": "Hubei"
+                "value": "Aichi"
               }
             }
           }
@@ -3402,12 +1464,12 @@
           },
           "division": {
             "confidence": {
-              "Guangdong": 0.06290475893799088,
-              "Hubei": 0.8045346689141577,
-              "Shanghai": 0.1325603296954639
+              "Aichi": 0.06290475893799088,
+              "Tokyo": 0.8045346689141577,
+              "Kyoto": 0.1325603296954639
             },
             "entropy": 0.6168531347172955,
-            "value": "Hubei"
+            "value": "Tokyo"
           }
         }
       },
@@ -3430,12 +1492,10 @@
           },
           "division": {
             "confidence": {
-              "Guangdong": 0.0910851202327511,
-              "Hubei": 0.8171852990619073,
-              "Shanghai": 0.09172955244870565
+              "Tokyo": 1.0
             },
             "entropy": 0.6023516464037405,
-            "value": "Hubei"
+            "value": "Tokyo"
           }
         }
       }
@@ -3455,13 +1515,10 @@
       },
       "division": {
         "confidence": {
-          "Guangdong": 0.07601886355189404,
-          "Hubei": 0.7510116111922108,
-          "Shanghai": 0.07546405592426164,
-          "Zhejiang": 0.01257501298389636
+          "Tokyo": 1.0
         },
         "entropy": 1.2199472061159875,
-        "value": "Hubei"
+        "value": "Tokyo"
       }
     }
   },
