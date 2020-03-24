@@ -28,12 +28,14 @@ const ENABLE_DEBUG = 0;
 const getDatasetFromCharon = (prefix, { type, narrative = false } = {}) => {
   let path = `${getServerAddress()}/${narrative ? "getNarrative" : "getDataset"}`;
   path += `?prefix=${prefix}`;
-  console.log("path is", path);
   if (type) path += `&type=${type}`;
 
   if (!ENABLE_DEBUG) {
+    console.log("Not Debug Mode");
     path = "/data/ncov.json";
   }
+
+  console.log("path is ", path);
 
   const p = fetch(path)
     .then((res) => {
@@ -151,10 +153,12 @@ const fetchDataAndDispatch = async (dispatch, url, query, narrativeBlocks) => {
     console.log("1");
     if (!secondTreeUrl) {
       if (ENABLE_DEBUG) {
+        console.log("Debug Mode");
         const mainDatasetResponse = await getDataset(mainDatasetUrl);
         datasetJson = await mainDatasetResponse.json();
         pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
       } else {
+        console.log("Not Debug Mode");
         const mainDatasetResponse = await getDatasetFromCharon(mainDatasetUrl);
         datasetJson = await mainDatasetResponse.json();
         pathnameShouldBe = queryString.parse(mainDatasetResponse.url.split("?")[1]).prefix;
